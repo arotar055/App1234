@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Color Buttons" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Контейнер для кнопок -->
+        <UniformGrid Columns="4" Rows="5" Grid.Column="0" Margin="10,10,0,69" Grid.ColumnSpan="2">
+            <!-- Кнопки с цветами -->
+            <Button Content="Navy" Foreground="Navy" Margin="2,2,50,35" Height="35" Width="137.75" />
+            <Button Content="Blue" Foreground="Blue" Margin="-45,2,98,35" RenderTransformOrigin="2.072,8.859" Width="137.75" Height="35" />
+            <Button Content="Aqua" Foreground="Aqua" Margin="-94,2,147,0" Height="35" VerticalAlignment="Top" Width="137.75" />
+            <Button Content="Teal" Foreground="Teal" Margin="-142,2,192,37" Width="137.75" Height="35" />
+            <Button Content="Olive" Foreground="Olive" Margin="2,-30,50,68" Height="35" Width="137.75" />
+            <Button Content="Green" Foreground="Green" Margin="-45,-30,98,68" RenderTransformOrigin="0.412,1.156" Width="137.75" Height="35" />
+            <Button Content="Lime" Foreground="Lime" Margin="-94,-30,146,68" Width="137.75" Height="35" />
+            <Button Content="Yellow" Foreground="Yellow" Margin="2,-71,44,110" Width="137.75" Height="35" />
+            <Button Content="Orange" Foreground="Orange" Margin="2,-63,50,96" Width="137.75" Height="35" />
+            <Button Content="Red" Foreground="Red" Margin="-42,-63,101,96" RenderTransformOrigin="-0.047,0.526" Width="137.75" Height="35" />
+            <Button Content="Maroon" Foreground="Maroon" Margin="60,-103,0,140" Height="35" />
+            <Button Content="Fuchsia" Foreground="Fuchsia" Margin="8,-103,51,140" Width="137.75" Height="35" />
+            <Button Content="Purple" Foreground="Purple" Margin="0,-91,50,126" Width="137.75" Height="35" />
+            <Button Content="Black" Foreground="Black" Margin="404,-133,-344,171" Height="35" />
+            <Button Content="Silver" Foreground="Silver" Margin="-91,-135,150,169" Width="137.75" Height="35" />
+            <Button Content="Gray" Foreground="Gray" Margin="-138,-133,198,171" Height="35" />
+            <Button Content="White" Foreground="White" Margin="156,-164,-96,199" Width="137.75" Height="35" />
+        </UniformGrid>
+    </Grid>
+</Window>
